@@ -8,21 +8,21 @@ import './App.css'
 import {Switch, Route} from "react-router-dom"
 
 function App() {    
-    return (
-        <div className="tc">
-            <Header />
-            
-            <Switch>
-                <Route exact path="/">
-                    <Home />
-                </Route>
-                <Route path="/profile">
-                    <Profile/>
-                </Route>
-            </Switch>
-            
-            <Footer />
-        </div>
+  return (
+    <div className="tc">
+      <Header />
+
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/profile">
+          <Profile/>
+        </Route>
+      </Switch>
+      
+      <Footer />
+    </div>
     )
 }
 
